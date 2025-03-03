@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio25/static/css/main.039bf95e.css",
-    "main.js": "/Portfolio25/static/js/main.4fb694c5.js",
+    "main.js": "/Portfolio25/static/js/main.c10ed367.js",
     "static/media/Hello.gif": "/Portfolio25/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/illustration.png": "/Portfolio25/static/media/illustration.d0f53962bc03d3770524.png",
     "static/media/ColeLevy-Software.pdf": "/Portfolio25/static/media/ColeLevy-Software.d3991c8631fb3bbc3437.pdf",
@@ -20,10 +20,10 @@
     "static/media/linkedin.svg": "/Portfolio25/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/Portfolio25/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.039bf95e.css.map": "/Portfolio25/static/css/main.039bf95e.css.map",
-    "main.4fb694c5.js.map": "/Portfolio25/static/js/main.4fb694c5.js.map"
+    "main.c10ed367.js.map": "/Portfolio25/static/js/main.c10ed367.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.4fb694c5.js"
+    "static/js/main.c10ed367.js"
   ]
 }
