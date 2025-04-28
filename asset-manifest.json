@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio25/static/css/main.46961403.css",
-    "main.js": "/Portfolio25/static/js/main.8093012f.js",
+    "main.js": "/Portfolio25/static/js/main.b4101fca.js",
     "static/media/Hello.gif": "/Portfolio25/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/illustration.png": "/Portfolio25/static/media/illustration.d0f53962bc03d3770524.png",
-    "static/media/ColeLevyResume.pdf": "/Portfolio25/static/media/ColeLevyResume.02a0722bd3f124111961.pdf",
+    "static/media/ColeLevyResume.pdf": "/Portfolio25/static/media/ColeLevyResume.8bea6adbc8bbe882f5c5.pdf",
     "static/media/colelevypicture.png": "/Portfolio25/static/media/colelevypicture.dcd52a1dcd35546bdc84.png",
     "static/media/node-icon.svg": "/Portfolio25/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
     "static/media/typescript-icon.svg": "/Portfolio25/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
@@ -20,10 +20,10 @@
     "static/media/linkedin.svg": "/Portfolio25/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/Portfolio25/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "main.46961403.css.map": "/Portfolio25/static/css/main.46961403.css.map",
-    "main.8093012f.js.map": "/Portfolio25/static/js/main.8093012f.js.map"
+    "main.b4101fca.js.map": "/Portfolio25/static/js/main.b4101fca.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.8093012f.js"
+    "static/js/main.b4101fca.js"
   ]
 }
