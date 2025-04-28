@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, EventCard, EventFront, EventBack, Subtitle } from './styles';
-import ScrollAnimation from "react-animate-on-scroll";
+import { Fade, Slide } from "react-awesome-reveal";
 
 export function History() {
   const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
@@ -11,16 +11,16 @@ export function History() {
 
   const workEvents = [
     {
-      title: "Support Engineer 1",
-      location: "cb20, Saratoga Springs, NY",
-      date: "December 2024 - Current",
-      description: "Provided technical support for managed services customers, both remotely and on-site. Drove phone answer rate from 30% to 95%. Improved CSAT rate to 3.2/5 from 4.9/5.",
-    },
-    {
       title: "Server",
       location: "The Whistling Kettle, Ballston Spa, NY",
       date: "October 2024 - Current",
       description: "Managed and upsold gourmet tea. Met sales goals by encouraging merchandise purchases. Handled customer inquiries and ensured high satisfaction.",
+    },
+    {
+      title: "Support Engineer 1",
+      location: "cb20, Saratoga Springs, NY",
+      date: "December 2024 - May 2025",
+      description: "Provided technical support for IT managed services customers, both remotely and on-site. Drove phone answer rate from 30% to 95%. Improved CSAT rate to 3.2/5 from 4.9/5.",
     },
     {
       title: "Captain",
@@ -123,7 +123,8 @@ export function History() {
       <Subtitle>Work</Subtitle>
       <div className="history">
         {workEvents.map((event, index) => (
-          <ScrollAnimation animateIn="flipInX" key={index}>
+        <Slide direction="up" triggerOnce key={index + workEvents.length}>  
+          <Fade triggerOnce key={index}>
             <EventCard
               onClick={() => handleFlip(index)}
               className={flippedIndex === index ? 'flipped' : ''}
@@ -140,13 +141,15 @@ export function History() {
                 </EventBack>
               </div>
             </EventCard>
-          </ScrollAnimation>
+          </Fade>
+        </Slide>
         ))}
       </div>
       <Subtitle>Education</Subtitle>
       <div className="history">
         {educationEvents.map((event, index) => (
-          <ScrollAnimation animateIn="flipInX" key={index}>
+        <Slide direction="up" triggerOnce key={index + workEvents.length}>
+          <Fade triggerOnce key={index}>
             <EventCard
               onClick={() => handleFlip(index + workEvents.length)}
               className={flippedIndex === index + workEvents.length ? 'flipped' : ''}
@@ -163,7 +166,8 @@ export function History() {
                 </EventBack>
               </div>
             </EventCard>
-          </ScrollAnimation>
+          </Fade>
+        </Slide>
         ))}
       </div>
     </Container>

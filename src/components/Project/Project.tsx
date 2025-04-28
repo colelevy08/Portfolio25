@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import ScrollAnimation from "react-animate-on-scroll";
+import { Fade, Slide } from "react-awesome-reveal";
 
 export function Project() {
   const projects = [
@@ -40,22 +40,24 @@ export function Project() {
       <h2>My Projects</h2>
       <div className="projects">
         {projects.map((project, index) => (
-          <ScrollAnimation animateIn="flipInX" key={index}>
-            <div
-              className="project"
-              onClick={() => window.open(project.repo, '_blank')}
-            >
-              <header>
-                <h3>{project.title}</h3>
-              </header>
-              <p>{project.description}</p>
-              <footer>
-                <div className="tech-list">
-                  {/* Add any tech stack icons or details here if needed */}
-                </div>
-              </footer>
-            </div>
-          </ScrollAnimation>
+          <Slide direction="up" triggerOnce key={index}>
+            <Fade triggerOnce>
+              <div
+                className="project"
+                onClick={() => window.open(project.repo, '_blank')}
+              >
+                <header>
+                  <h3>{project.title}</h3>
+                </header>
+                <p>{project.description}</p>
+                <footer>
+                  <div className="tech-list">
+                    {/* Add any tech stack icons or details here if needed */}
+                  </div>
+                </footer>
+              </div>
+            </Fade>
+          </Slide>
         ))}
       </div>
     </Container>

@@ -1,5 +1,4 @@
 import { Container } from './styles'
-import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
@@ -12,12 +11,6 @@ export function Footer() {
       <a href="https://colelevy08.github.io/Portfolio25/" className="logo">
         <span>Cole Levy's Portfolio </span>
       </a>
-      <div>
-        <p>
-          This Website was made with React <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
-        </p>
-      </div>
       <div className="social-media">
         <a
           href="https://www.linkedin.com/in/colelevy"
@@ -34,7 +27,7 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send/?phone=15184104999&text=Hello+Cole"
           target="_blank"
           rel="noreferrer"
         >
