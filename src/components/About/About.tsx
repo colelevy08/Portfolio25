@@ -26,9 +26,9 @@ export function About() {
           </p>
         </Slide>
         <Slide triggerOnce direction="left" delay={300}>
-          <p>
-            Most recently, I worked at cb20 in Saratoga Springs, New York as a Support Engineer. I provided technical support for IT managed services customers and was responsible for being our "First Responder" on phone calls. Learn more down below!
-          </p>
+            <p>
+            I currently serve as an Assistant Manager at Sure Thing Hospitality. After contributing to the successful launch of the new Standard Fare restaurant in Saratoga Springs, NY, I now assist in overseeing daily operations and customer service to deliver an exceptional dining experience. This position has further developed my leadership, organizational, and problem-solving abilities.
+            </p>
         </Slide>
         <Slide triggerOnce direction="left" delay={400}>
           <h3>Here are my main skills:</h3>

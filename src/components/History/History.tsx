@@ -11,9 +11,15 @@ export function History() {
 
   const workEvents = [
     {
+      title: "Assistant Manager",
+      location: "Standard Fare, Saratoga Springs, NY",
+      date: "July 2025 - Current",
+      description: "Supported successful launch of the Standard Fare location. Managed POS updates, cash-outs, and end-of-shift financial processes. Provided exceptional customer service, achieving top guest satisfaction metrics. Trained and supervised new staff, ensuring adherence to company standards and procedures.",
+    },
+    {
       title: "Server",
       location: "The Whistling Kettle, Ballston Spa, NY",
-      date: "October 2024 - Current",
+      date: "October 2024 - May 2025",
       description: "Managed and upsold gourmet tea. Met sales goals by encouraging merchandise purchases. Handled customer inquiries and ensured high satisfaction.",
     },
     {
