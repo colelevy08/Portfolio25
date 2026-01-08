@@ -1,0 +1,6 @@
+import { RevealProvider } from 'react-awesome-reveal';
+
+// Wrap your entire app with RevealProvider
+<RevealProvider>
+  {/* Your existing components */}
+</RevealProvider>

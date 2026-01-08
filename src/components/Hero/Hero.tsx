@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import { Container } from "./styles";
 import { Fade, Slide } from "react-awesome-reveal";
 import colelevypicture from "../../assets/colelevypicture.png";
@@ -63,16 +62,14 @@ export function Hero() {
         <Fade triggerOnce delay={800}>
           <Slide direction="left" triggerOnce delay={800}>
             <div style={{ margin: "25px 0" }}>
-              <BrowserRouter>
-                <NavHashLink
-                  smooth
-                  to="#contact"
-                  className="button"
-                  style={{ fontSize: "1.2em" }}
-                >
-                  Contact
-                </NavHashLink>
-              </BrowserRouter>
+              <NavHashLink
+                smooth
+                to="#contact"
+                className="button"
+                style={{ fontSize: "1.2em" }}
+              >
+                Contact
+              </NavHashLink>
             </div>
           </Slide>
         </Fade>
